@@ -2,16 +2,16 @@
 
 Week 3 task of my learning journey as an Intern with network involved Password cracking with Johnny The Ripper and free Networkwalks tools. I have carefully curated this report to showcase the skills i have acquired. 
 
-## Project overview
+## 📝 Project overview
 Johnny The Ripper is a popular password cracking tool used by professionals to test how strong passwords are. It used to be solely for Unix systems but in recent times, have included a GUI version for windows and mac systems. This project shows how Johnny The Ripper (Johnny GUI) and Networkwalks password cracking tools are used to recover the password of an encrypted file.
 
-## Project objectives
+## 🎯 Project objectives
 The objectives of this project are as follows:
 
 Task 1 - Crack the password of attached PDF file (My Locked PDF1.pdf) using JTR  JOHN and JTR JOHNNY tools on your Windows PC.
 Task 2 - Crack the password of the attached PDF file (My Locked PDF1.pdf) using the Networkwalks Hash Calculator and Password Cracker tools on your Windows  laptop. 
 
-## Tools Used
+## 🛠️ Tools Used
 Johnny The Ripper - password cracking tool 
 
 Johnny GUI - graphical user interface for Johnny The Ripper 
@@ -23,7 +23,7 @@ Networkwalks Hash Calculator
 
 Networkwalks Password Cracker
 
-## Project Module 1 - Cracking password of PDF file using JTR 
+## 🛎️Project Module 1 - Cracking password of PDF file using JTR 
 This task involves the use of Johnny The Ripper and Johnny GUI for windows and to do so I downloaded the two. 
 John The Ripper is first downloaded from the from https://www.openwall.com/john/ as shown in the screenshot below. 
 <img width="959" height="500" alt="JTR download" src="https://github.com/user-attachments/assets/f25f913d-ac4d-4aff-af62-222e41b682f1" /> 
@@ -49,7 +49,7 @@ The screenshot above shows the password after the process completed. To test thi
 
 ---
 
-## Project Module 2 - Cracking the password of a secured PDF file using Networkwalks Hash Calculator and Password Cracker.
+## 🛎️ Project Module 2 - Cracking the password of a secured PDF file using Networkwalks Hash Calculator and Password Cracker.
 The goal of this module is to crack the password of the password-protected file using given Networkwalks Hash Calculator and Networkwalks Password Cracker. 
 With the already downloaded file, I proceeded to the [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator ) . 
 The file is uploaded and the hash is returned as shown in the screenshot below. 
@@ -66,10 +66,10 @@ The password shows `1qaz2wsx` .
 To verify the password, I tested it against the file. The results is as follows. 
 <img width="643" height="454" alt="results" src="https://github.com/user-attachments/assets/6051f042-ad58-4500-abfb-63740b2cd6dd" /> 
 
-## Conclusion 
+## 🔎 Conclusion 
 This project has shown how to crack passwords to a password secure file using John The Ripper GUI and Networkwalks Password cracker. This was also made possible by finding the hash of the files using [OnlineHashCrack](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php ) and the [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator ) . 
 
-## Recommendation
+## ⚠️ Recommendation
 The project discloses how easy it is for attackers to break dictionary or easy-to-guess passwords. It is important to have hard to guess passwords by shuffling words and symbols. 
 
 # 👤 Author
